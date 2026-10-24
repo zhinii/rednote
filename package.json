@@ -7,7 +7,7 @@
     "example": "examples"
   },
   "scripts": {
-    "test": "node tests/geometry.test.js"
+    "test": "node tests/geometry.test.js && node tests/camera.test.js"
   },
   "keywords": [],
   "author": "",

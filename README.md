@@ -13,14 +13,15 @@ Then visit `http://localhost:8000`.
 - Open hull shell, 18 U-shaped framing ribs and ten two-person paddler benches
 - Original sculptural dragon head, tail, drum and steering sweep
 - Orbit/zoom, perspective/side/top views, translucent framing view
-- Reset, PNG export, English and Chinese UI, responsive layout
+- Reset, PNG export (SVG in compatibility mode), English and Chinese UI, responsive layout
+- Automatic interactive SVG compatibility renderer when WebGL is unavailable
 - No build needed for deployment; vendored Three.js 0.180.0 and MIT notice included
 
 ## Validation
 
     npm test
 
-Geometry tests cover all 27 combinations of minimum/default/maximum dimensions, finite positions, index bounds, port/starboard and longitudinal symmetry, rocker rise and inner-shell clearance. Browser review is separately documented in the handoff.
+Geometry tests cover all 27 combinations of minimum/default/maximum dimensions, finite positions, index bounds, port/starboard and longitudinal symmetry, rocker rise and inner-shell clearance. Camera tests additionally cover 36 viewport/length/preset combinations, including portrait screens. Browser review is separately documented in the handoff.
 
 ## Design basis and limits
 The default hull is 12.49 m long by 1.16 m wide, inspired by standard 20-paddler racing boats. Ten benches, a shallow open canoe profile, a drummer at the bow and a stern steering sweep distinguish this from a generic canoe. Rib spacing, rocker range and carved ornaments are original illustrative choices, not IDBF manufacturing specifications. Custom settings are visual design studies, not construction plans, stability predictions or certification.

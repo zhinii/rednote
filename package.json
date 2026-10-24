@@ -1,0 +1,20 @@
+{
+  "name": "rednote-dragonboat",
+  "version": "1.0.0",
+  "description": "A parametric dragon boat atelier: original 3D hull, ribs and dragon ornaments.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "node tests/geometry.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "private": true
+}
